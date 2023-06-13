@@ -1,0 +1,912 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/wikto/source/repos/C#/2023_TAB_S11_MICHALIK/PicScam/PicScam/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ActiveOfferViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ActiveOfferViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.App.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Bases.BaseComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Bases.BaseComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Bases.IMediator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Bases.IMediator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Bases.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Bases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.BuyPicture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.BuyPicture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.BuyPremium.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.BuyPremium.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.CommentBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.CommentBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.CommonComponents.ActivatedTextEditComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.CommonComponents.ActivatedTextEditComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.CommonComponents.MessageComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.CommonComponents.MessageComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.CommonComponents.PictureDisplayComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.CommonComponents.PictureDisplayComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.CommonComponents.UserComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.CommonComponents.UserComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.CommonComponents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.CommonComponents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.CustomerSellerViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.CustomerSellerViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Ftp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Ftp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.LoadPicsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.LoadPicsPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Login.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Login.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.MainPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.MainPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.MainWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Migrations.add_tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Migrations.add_tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.Bought.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.Bought.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.Comment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.Comment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.Offer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.Offer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.Owner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.Owner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.PicscamContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.PicscamContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.Picture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.Picture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.Shared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.TagAssigment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.TagAssigment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.TestEntries1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.TestEntries1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.TestEntries2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.TestEntries2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.User.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.NavButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.NavButton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PdfPrintingComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PdfPrintingComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PhotoAdding.Adding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PhotoAdding.Adding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PhotoAdding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PhotoAdding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Pic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Pic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.Address.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.Address.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.Point.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.Point.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.Resource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.ResourceSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.ResourceSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.BingMapsGeocodeResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.CommentComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.CommentComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.Geodata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.Geodata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.PictureDataDisplayComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.PictureDataDisplayComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.PictureRemovalComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.PictureRemovalComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.SellPic.OfferSimple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.SellPic.OfferSimple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.SellPic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.SellPic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.ServerLocalIntegrationComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.ServerLocalIntegrationComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.SharePic.UserSimple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.SharePic.UserSimple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.SharePic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.SharePic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.TagAssigmentDisplayComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.TagAssigmentDisplayComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.TagAssigmentDisplayViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.TagAssigmentDisplayViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.TagAssigmentEdit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.TagAssigmentEdit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.TagAssigmentEditComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.TagAssigmentEditComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.TagAssigmentEditViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.TagAssigmentEditViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PicWindowInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PicWindowInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Properties.Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Properties.Resources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Properties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.PurchasesPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.PurchasesPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.RecordedPaymentViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.RecordedPaymentViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Registration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Registration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ReportQueryWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ReportQueryWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.Retrieve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.Retrieve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.SearchPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.SearchPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.Bought.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.Bought.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.Comment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.Comment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.KirschniPicscamContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.KirschniPicscamContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.Offer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.Offer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.Owner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.Owner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.PasswordReset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.PasswordReset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.Picture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.Picture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.Shared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.TagAssigment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.TagAssigment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.User.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.ServerModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.ServerModels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.TagsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.TagsPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.UserSettingsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.UserSettingsPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PicScam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PicScam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

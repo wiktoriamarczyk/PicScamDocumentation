@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PdfPrintingComponent
+ | PicScam </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PdfPrintingComponent
+ | PicScam ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PicScam.PdfPrintingComponent">
+
+
+
+  <h1 id="PicScam_PdfPrintingComponent" data-uid="PicScam.PdfPrintingComponent" class="text-break">
+    Class PdfPrintingComponent
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PicScam.html">PicScam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PicScam.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Component for printing PDFs - especially the payment history report.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PdfPrintingComponent : BaseComponent</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="PicScam.Bases.BaseComponent.html">BaseComponent</a></div>
+      <div><span class="xref">PdfPrintingComponent</span></div>
+    </dd>
+  </dl>
+
+
+
+  
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="PicScam_PdfPrintingComponent__ctor_" data-uid="PicScam.PdfPrintingComponent.#ctor*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent__ctor_PicScam_Bases_IMediator_" data-uid="PicScam.PdfPrintingComponent.#ctor(PicScam.Bases.IMediator)">
+  PdfPrintingComponent(IMediator)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PdfPrintingComponent(IMediator mediator = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mediator</code> <a class="xref" href="PicScam.Bases.IMediator.html">IMediator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PicScam_PdfPrintingComponent_AllUsersAmount_" data-uid="PicScam.PdfPrintingComponent.AllUsersAmount*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_AllUsersAmount" data-uid="PicScam.PdfPrintingComponent.AllUsersAmount">
+  AllUsersAmount
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Amount of all users that this user has made transactions with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AllUsersAmount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_ArePurchasesEnabled_" data-uid="PicScam.PdfPrintingComponent.ArePurchasesEnabled*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_ArePurchasesEnabled" data-uid="PicScam.PdfPrintingComponent.ArePurchasesEnabled">
+  ArePurchasesEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies if purchases should be listed in the report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ArePurchasesEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_AreSalesEnabled_" data-uid="PicScam.PdfPrintingComponent.AreSalesEnabled*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_AreSalesEnabled" data-uid="PicScam.PdfPrintingComponent.AreSalesEnabled">
+  AreSalesEnabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies if sales should be listed in the report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AreSalesEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_BeginDate_" data-uid="PicScam.PdfPrintingComponent.BeginDate*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_BeginDate" data-uid="PicScam.PdfPrintingComponent.BeginDate">
+  BeginDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Minimum transaction date to be included in the report</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? BeginDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_EndDate_" data-uid="PicScam.PdfPrintingComponent.EndDate*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_EndDate" data-uid="PicScam.PdfPrintingComponent.EndDate">
+  EndDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum transaction date to be included in the report</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? EndDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_MaxValue_" data-uid="PicScam.PdfPrintingComponent.MaxValue*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_MaxValue" data-uid="PicScam.PdfPrintingComponent.MaxValue">
+  MaxValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum transaction Price to be included in the report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal? MaxValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_MinValue_" data-uid="PicScam.PdfPrintingComponent.MinValue*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_MinValue" data-uid="PicScam.PdfPrintingComponent.MinValue">
+  MinValue
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Minimal transaction Price to be included in the report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal? MinValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_purchases_" data-uid="PicScam.PdfPrintingComponent.purchases*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_purchases" data-uid="PicScam.PdfPrintingComponent.purchases">
+  purchases
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>All of current user's purchases.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;RecordedPaymentViewModel&gt;? purchases { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PicScam.RecordedPaymentViewModel.html">RecordedPaymentViewModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_sales_" data-uid="PicScam.PdfPrintingComponent.sales*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_sales" data-uid="PicScam.PdfPrintingComponent.sales">
+  sales
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>All of current user's sales.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;RecordedPaymentViewModel&gt;? sales { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PicScam.RecordedPaymentViewModel.html">RecordedPaymentViewModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_selectedUsers_" data-uid="PicScam.PdfPrintingComponent.selectedUsers*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_selectedUsers" data-uid="PicScam.PdfPrintingComponent.selectedUsers">
+  selectedUsers
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Users included in the payment report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CustomerSellerViewModel&gt; selectedUsers { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PicScam.CustomerSellerViewModel.html">CustomerSellerViewModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PicScam_PdfPrintingComponent_GenerateReportPdf_" data-uid="PicScam.PdfPrintingComponent.GenerateReportPdf*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_GenerateReportPdf" data-uid="PicScam.PdfPrintingComponent.GenerateReportPdf">
+  GenerateReportPdf()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Displays a SaveFileDialog, then creates and saves a PDF file if a location
+on disc has been selected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GenerateReportPdf()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_SetupDataSources_" data-uid="PicScam.PdfPrintingComponent.SetupDataSources*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_SetupDataSources_System_Collections_Generic_List_PicScam_CustomerSellerViewModel__System_Collections_Generic_List_PicScam_RecordedPaymentViewModel__System_Collections_Generic_List_PicScam_RecordedPaymentViewModel__" data-uid="PicScam.PdfPrintingComponent.SetupDataSources(System.Collections.Generic.List{PicScam.CustomerSellerViewModel},System.Collections.Generic.List{PicScam.RecordedPaymentViewModel},System.Collections.Generic.List{PicScam.RecordedPaymentViewModel})">
+  SetupDataSources(List&lt;CustomerSellerViewModel&gt;, List&lt;RecordedPaymentViewModel&gt;?, List&lt;RecordedPaymentViewModel&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets list content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetupDataSources(List&lt;CustomerSellerViewModel&gt; selectedUsers, List&lt;RecordedPaymentViewModel&gt;? purchases, List&lt;RecordedPaymentViewModel&gt;? sales)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>selectedUsers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PicScam.CustomerSellerViewModel.html">CustomerSellerViewModel</a>&gt;</dt>
+    <dd><p>Users included in the payment report.</p>
+</dd>
+    <dt><code>purchases</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PicScam.RecordedPaymentViewModel.html">RecordedPaymentViewModel</a>&gt;</dt>
+    <dd><p>All of current user's purchases.</p>
+</dd>
+    <dt><code>sales</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PicScam.RecordedPaymentViewModel.html">RecordedPaymentViewModel</a>&gt;</dt>
+    <dd><p>All of current user's sales.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_SetupSettings_" data-uid="PicScam.PdfPrintingComponent.SetupSettings*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_SetupSettings_System_Boolean_System_Boolean_" data-uid="PicScam.PdfPrintingComponent.SetupSettings(System.Boolean,System.Boolean)">
+  SetupSettings(bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set which parts of the report should be generated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetupSettings(bool purchasesEnabled, bool salesEnabled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>purchasesEnabled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if purchases should be listed.</p>
+</dd>
+    <dt><code>salesEnabled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if sales should be listed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PicScam_PdfPrintingComponent_SetupValues_" data-uid="PicScam.PdfPrintingComponent.SetupValues*"></a>
+
+  <h3 id="PicScam_PdfPrintingComponent_SetupValues_System_Nullable_System_Decimal__System_Nullable_System_Decimal__System_Nullable_System_DateTime__System_Nullable_System_DateTime__System_Int32_" data-uid="PicScam.PdfPrintingComponent.SetupValues(System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Int32)">
+  SetupValues(decimal?, decimal?, DateTime?, DateTime?, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets range limits and other parameter values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetupValues(decimal? min, decimal? max, DateTime? begin, DateTime? end, int allUsers)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>min</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</dt>
+    <dd><p>Minimal transaction Price to be included in the report.</p>
+</dd>
+    <dt><code>max</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</dt>
+    <dd><p>Maximum transaction Price to be included in the report.</p>
+</dd>
+    <dt><code>begin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd><p>Minimum transaction date to be included in the report</p>
+</dd>
+    <dt><code>end</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd><p>Maximum transaction date to be included in the report</p>
+</dd>
+    <dt><code>allUsers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Amount of all users that this user has made transactions with.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

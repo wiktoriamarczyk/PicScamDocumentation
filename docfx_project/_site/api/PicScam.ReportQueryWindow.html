@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ReportQueryWindow
+ | PicScam </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ReportQueryWindow
+ | PicScam ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PicScam.ReportQueryWindow">
+
+
+
+  <h1 id="PicScam_ReportQueryWindow" data-uid="PicScam.ReportQueryWindow" class="text-break">
+    Class ReportQueryWindow
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PicScam.html">PicScam</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PicScam.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Window allowing the user to parametrize their payment history report.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ReportQueryWindow : IMediator, INotifyPropertyChanged</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ReportQueryWindow</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="PicScam.Bases.IMediator.html">IMediator</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    </dd>
+  </dl>
+
+
+  
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="PicScam_ReportQueryWindow__ctor_" data-uid="PicScam.ReportQueryWindow.#ctor*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow__ctor_System_Collections_Generic_List_PicScam_RecordedPaymentViewModel__System_Collections_Generic_List_PicScam_RecordedPaymentViewModel__" data-uid="PicScam.ReportQueryWindow.#ctor(System.Collections.Generic.List{PicScam.RecordedPaymentViewModel},System.Collections.Generic.List{PicScam.RecordedPaymentViewModel})">
+  ReportQueryWindow(List&lt;RecordedPaymentViewModel&gt;, List&lt;RecordedPaymentViewModel&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fills available Customer/Seller List and saves purchases/sales list state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReportQueryWindow(List&lt;RecordedPaymentViewModel&gt; purchases, List&lt;RecordedPaymentViewModel&gt; sales)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>purchases</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PicScam.RecordedPaymentViewModel.html">RecordedPaymentViewModel</a>&gt;</dt>
+    <dd><p>Current user's purchases.</p>
+</dd>
+    <dt><code>sales</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PicScam.RecordedPaymentViewModel.html">RecordedPaymentViewModel</a>&gt;</dt>
+    <dd><p>Current user's sales.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PicScam_ReportQueryWindow_ArePurchasesIncluded_" data-uid="PicScam.ReportQueryWindow.ArePurchasesIncluded*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_ArePurchasesIncluded" data-uid="PicScam.ReportQueryWindow.ArePurchasesIncluded">
+  ArePurchasesIncluded
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies if purchases should be listed in the report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ArePurchasesIncluded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow_AreSalesIncluded_" data-uid="PicScam.ReportQueryWindow.AreSalesIncluded*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_AreSalesIncluded" data-uid="PicScam.ReportQueryWindow.AreSalesIncluded">
+  AreSalesIncluded
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies if sales should be listed in the report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AreSalesIncluded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow_BeginningTimeRangeFormatted_" data-uid="PicScam.ReportQueryWindow.BeginningTimeRangeFormatted*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_BeginningTimeRangeFormatted" data-uid="PicScam.ReportQueryWindow.BeginningTimeRangeFormatted">
+  BeginningTimeRangeFormatted
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Minimum transaction date to be included in the report - formatted as a string containing only the date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BeginningTimeRangeFormatted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow_CustomerSellersBinding_" data-uid="PicScam.ReportQueryWindow.CustomerSellersBinding*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_CustomerSellersBinding" data-uid="PicScam.ReportQueryWindow.CustomerSellersBinding">
+  CustomerSellersBinding
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Binds all customers/sellers the current user made transactions with to the report filter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;CustomerSellerViewModel&gt; CustomerSellersBinding { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="PicScam.CustomerSellerViewModel.html">CustomerSellerViewModel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow_EndingTimeRangeFormatted_" data-uid="PicScam.ReportQueryWindow.EndingTimeRangeFormatted*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_EndingTimeRangeFormatted" data-uid="PicScam.ReportQueryWindow.EndingTimeRangeFormatted">
+  EndingTimeRangeFormatted
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum transaction date to be included in the report - formatted as a string containing only the date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EndingTimeRangeFormatted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow_MaxPriceBinding_" data-uid="PicScam.ReportQueryWindow.MaxPriceBinding*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_MaxPriceBinding" data-uid="PicScam.ReportQueryWindow.MaxPriceBinding">
+  MaxPriceBinding
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum transaction Price to be included in the report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MaxPriceBinding { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow_MinPriceBinding_" data-uid="PicScam.ReportQueryWindow.MinPriceBinding*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_MinPriceBinding" data-uid="PicScam.ReportQueryWindow.MinPriceBinding">
+  MinPriceBinding
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Minimal transaction Price to be included in the report.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MinPriceBinding { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow_SelectedDate_" data-uid="PicScam.ReportQueryWindow.SelectedDate*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_SelectedDate" data-uid="PicScam.ReportQueryWindow.SelectedDate">
+  SelectedDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Date currently selected in the GUI calendar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? SelectedDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow__localContext_" data-uid="PicScam.ReportQueryWindow._localContext*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow__localContext" data-uid="PicScam.ReportQueryWindow._localContext">
+  _localContext
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PicscamContext _localContext { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PicScam.Models.PicscamContext.html">PicscamContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow__serverContext_" data-uid="PicScam.ReportQueryWindow._serverContext*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow__serverContext" data-uid="PicScam.ReportQueryWindow._serverContext">
+  _serverContext
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KirschniPicscamContext _serverContext { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="PicScam.ServerModels.KirschniPicscamContext.html">KirschniPicscamContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PicScam_ReportQueryWindow_Notify_" data-uid="PicScam.ReportQueryWindow.Notify*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_Notify_System_Object_System_String_" data-uid="PicScam.ReportQueryWindow.Notify(System.Object,System.String)">
+  Notify(object, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Handles messages coming in from the components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Notify(object sender, string eventName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PicScam_ReportQueryWindow_ResetMinButton_Click_" data-uid="PicScam.ReportQueryWindow.ResetMinButton_Click*"></a>
+
+  <h3 id="PicScam_ReportQueryWindow_ResetMinButton_Click_System_Object_System_Windows_RoutedEventArgs_" data-uid="PicScam.ReportQueryWindow.ResetMinButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+  ResetMinButton_Click(object, RoutedEventArgs)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resets transaction minimum price.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetMinButton_Click(object sender, RoutedEventArgs e)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sender</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>&quot;Reset&quot; button.</p>
+</dd>
+    <dt><code>e</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventargs">RoutedEventArgs</a></dt>
+    <dd><p>Empty.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="PicScam_ReportQueryWindow_PropertyChanged" data-uid="PicScam.ReportQueryWindow.PropertyChanged">
+  PropertyChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Raised when a data binded value has been changed and GUI needs an update.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

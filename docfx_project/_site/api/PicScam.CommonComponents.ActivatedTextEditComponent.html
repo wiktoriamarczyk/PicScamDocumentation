@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ActivatedTextEditComponent
+ | PicScam </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ActivatedTextEditComponent
+ | PicScam ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="PicScam.CommonComponents.ActivatedTextEditComponent">
+
+
+
+  <h1 id="PicScam_CommonComponents_ActivatedTextEditComponent" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent" class="text-break">
+    Class ActivatedTextEditComponent
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="PicScam.html">PicScam</a>.<a class="xref" href="PicScam.CommonComponents.html">CommonComponents</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>PicScam.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Component responsible for managing editable TextBoxes that can be turned ON/OFF.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ActivatedTextEditComponent : BaseComponent</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="PicScam.Bases.BaseComponent.html">BaseComponent</a></div>
+      <div><span class="xref">ActivatedTextEditComponent</span></div>
+    </dd>
+  </dl>
+
+
+
+  
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent__ctor_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.#ctor*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent__ctor_System_Boolean_PicScam_Bases_IMediator_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.#ctor(System.Boolean,PicScam.Bases.IMediator)">
+  ActivatedTextEditComponent(bool, IMediator)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Component initialization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActivatedTextEditComponent(bool canValueBeEmpty, IMediator mediator = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>canValueBeEmpty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if user should be able to save an empty value in the TextBox.</p>
+</dd>
+    <dt><code>mediator</code> <a class="xref" href="PicScam.Bases.IMediator.html">IMediator</a></dt>
+    <dd><p>The mediator handling this component's messages.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent_DisplayedTextBeforeEdit_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.DisplayedTextBeforeEdit*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent_DisplayedTextBeforeEdit" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.DisplayedTextBeforeEdit">
+  DisplayedTextBeforeEdit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Holds the value stored in the TextBox before current session of editing began.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DisplayedTextBeforeEdit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent_EditButtonsVisibility_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.EditButtonsVisibility*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent_EditButtonsVisibility" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.EditButtonsVisibility">
+  EditButtonsVisibility
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies if the &quot;Save&quot; and &quot;Discard&quot; buttons are active or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Visibility EditButtonsVisibility { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.visibility">Visibility</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent_KeepBorder_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.KeepBorder*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent_KeepBorder" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.KeepBorder">
+  KeepBorder
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Specifies if the TextBox should keep its border when editing is OFF.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeepBorder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent_TextBinding_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.TextBinding*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent_TextBinding" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.TextBinding">
+  TextBinding
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The TextBox's text content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TextBinding { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent_DiscardEditingResult_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.DiscardEditingResult*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent_DiscardEditingResult_System_Windows_Controls_TextBox_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.DiscardEditingResult(System.Windows.Controls.TextBox)">
+  DiscardEditingResult(TextBox)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ends editing without saving.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DiscardEditingResult(TextBox textBox)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textBox</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.textbox">TextBox</a></dt>
+    <dd><p>The TextBox to turn OFF.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent_FillTextBox_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.FillTextBox*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent_FillTextBox_System_String_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.FillTextBox(System.String)">
+  FillTextBox(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update text displayed in the TextBox.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FillTextBox(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Text to be displayed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent_SaveDataBeforeEditing_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.SaveDataBeforeEditing*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent_SaveDataBeforeEditing" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.SaveDataBeforeEditing">
+  SaveDataBeforeEditing()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Called when user clicks an &quot;Edit...&quot; button.
+Saves the previous content of the textbox.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveDataBeforeEditing()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent_SaveEditingResult_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.SaveEditingResult*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent_SaveEditingResult_System_Windows_Controls_TextBox_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.SaveEditingResult(System.Windows.Controls.TextBox)">
+  SaveEditingResult(TextBox)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ends editing and returns the final string entered in the TextBox.
+If string is empty <code>CanValueBeEmpty</code> is set to false, returns null and
+notifies the mediator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? SaveEditingResult(TextBox textBox)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textBox</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.textbox">TextBox</a></dt>
+    <dd><p>TextBox to get value from.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The displayed contents of the passed in TextBox or null if empty when it cannot be.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="PicScam_CommonComponents_ActivatedTextEditComponent_StartEditing_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.StartEditing*"></a>
+
+  <h3 id="PicScam_CommonComponents_ActivatedTextEditComponent_StartEditing_System_Windows_Controls_TextBox_" data-uid="PicScam.CommonComponents.ActivatedTextEditComponent.StartEditing(System.Windows.Controls.TextBox)">
+  StartEditing(TextBox)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Prepare window for editing - enables the specified textbox
+and makes its &quot;Save&quot; and &quot;Discard&quot; buttons visible.
+Is called after user clicks the &quot;Edit...&quot; button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartEditing(TextBox textBox)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textBox</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.textbox">TextBox</a></dt>
+    <dd><p>TextBox that will be enabled for edit.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
